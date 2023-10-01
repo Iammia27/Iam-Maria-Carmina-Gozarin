@@ -126,8 +126,6 @@ header.shadow {
   justify-content: center;
   align-items: center;
 }
-
-
 .home-img {
   order: 3;
   margin-top: 20%;
@@ -139,10 +137,8 @@ header.shadow {
   transform: translatey(0px);
   animation: float 6s ease-in-out infinite;
 }
-
-
 .home-img img {
-  width: 60%;
+  width: 50%;
   
 }
 .home-text span {
@@ -254,7 +250,11 @@ Maria Carmina
   align-items: center;
   gap: 2rem;
   margin-top: 4rem;
-
+} .skills-img img {
+    width: 100%;
+    padding-left: 4rem;
+    object-position: center;
+  
 }
 .bars-box {
   position: relative;
@@ -353,10 +353,9 @@ span {
 .portfolio-img {
   overflow: hidden;
   border-radius: 0.5rem;
- 
 }
 .portfolio-img img {
-  width: 40%;
+  width: 50%;
   display: block;
   margin-bottom: 5%;
 }
@@ -396,7 +395,7 @@ form textarea {
 .contact-button {
   width: 160px;
   cursor: pointer;
-  background: #FFA07A;
+  background: #0a5a70;
   color: #ffffff;
   justify-content: center;
   text-transform: uppercase;
@@ -411,28 +410,27 @@ form textarea {
   place-items: center;
   padding: 20px;
   background: #ebebeb;
-  color: #000;
+  color: #000000;
 }
 .footer h2 {
   font-size: 1.5rem;
   margin-bottom: 1.6rem;
 }
 .footer-social a i{
-  color: rgb(10, 26, 208);
+  color: rgb(10, 152, 208);
   font-size: 25px;
   margin-left: 10px;
   text-align: center;
   line-height: 40px;
-  background-color: #fff;
+  background-color: #ffffff;
   border-radius: 501%;
   width: 40px;
   height: 40px;
 }
 .copyright {
   padding: 20px;
-  background: var(--main-color);
   text-align: center;
-  color: #fff;
+  color: #0d2942;
 }
 .copyright a{
   color: #050505;
