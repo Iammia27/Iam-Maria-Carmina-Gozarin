@@ -97,7 +97,7 @@ header.shadow {
 
 .home {
   position: relative;
-  width: 100%;
+  width: 80%;
   min-height: 100vh;
   display: grid;
   grid-template-columns: 0.2fr 1fr 1fr;
@@ -138,7 +138,7 @@ header.shadow {
   animation: float 6s ease-in-out infinite;
 }
 .home-img img {
-  width: 50%;
+  width: 100%;
   
 }
 .home-text span {
